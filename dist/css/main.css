@@ -6,6 +6,18 @@
   transform: translate(0%, 100%);
   top: 5%; }
 
+.underline-2 {
+  height: 18px;
+  width: 11%;
+  background: aqua;
+  position: absolute;
+  transform: translate(0%, 100%);
+  top: 28%;
+  left: 1%; }
+
+.columns h4 {
+  margin-top: 2vh; }
+
 .block {
   position: absolute;
   top: 70%;
@@ -13,8 +25,24 @@
   text-align: center;
   left: 2%; }
 
+.button-white button {
+  text-transform: uppercase; }
+
+.overlay-box {
+  min-height: 50vh;
+  min-width: 90%;
+  background: honeydew;
+  position: absolute;
+  transform: translate(8%, -22%); }
+  .overlay-box h4 {
+    text-transform: uppercase;
+    word-wrap: break-word; }
+
 .mt {
   margin-top: 12vh; }
+
+.ml {
+  margin-left: 5%; }
 
 * {
   margin: 0;
@@ -46,3 +74,6 @@ section {
     position: absolute;
     transform: translate(2%, 0%);
     top: 40%; }
+
+section.overlay {
+  position: relative; }

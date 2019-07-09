@@ -16,6 +16,18 @@
     top: 28%;
     left: 1%;
 }
+.underline-dark {
+    background: #444;
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    top: 80%;
+    transform: translate(-65%,80%);
+}
+.custom {
+    padding: 4rem 3rem;
+    margin-top: 10vh;
+}
 .columns h4 {
     margin-top: 2vh;
 }
@@ -28,6 +40,9 @@
 }
 .button-white button {
     text-transform: uppercase;
+}
+.column {
+    margin-top: .2rem;
 }
 .overlay-box {
     min-height: 50vh;
@@ -42,9 +57,15 @@
     }
 }
 
+.text-center {
+    text-align: center;
+}
 .mt {
     margin-top: 12vh;
 }
 .ml {
     margin-left: 5%;
+}
+.upper {
+    text-transform: uppercase;
 }

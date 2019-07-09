@@ -46,3 +46,15 @@ section.overlay {
     position: relative;
 }
 
+
+// Map
+section.map {
+   background: url('../../img/map.jpg') no-repeat center center/cover;
+   top: 0%;
+   position: relative;
+   min-width: 100%;
+   transform: translate(0%,-80%);
+}
+section.overlay-map {
+ 
+}

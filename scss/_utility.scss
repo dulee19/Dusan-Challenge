@@ -1,1 +1,20 @@
 // Utility Classes
+.underline {
+    height: 23px;
+    width: 25%;
+    background: aqua;
+    position: absolute;
+    transform: translate(0%, 100%);
+    top: 5%;
+}
+.block {
+    position: absolute;
+    top: 70%;
+    color: #fff;
+    text-align: center;
+    left: 2%;
+}
+
+.mt {
+    margin-top: 12vh;
+}

@@ -46,7 +46,6 @@ section.overlay {
     position: relative;
 }
 
-
 // Map
 section.map {
    background: url('../../img/map.jpg') no-repeat center center/cover;
@@ -55,6 +54,20 @@ section.map {
    min-width: 100%;
    transform: translate(0%,-80%);
 }
-section.overlay-map {
- 
+
+// Two Columns Section
+section.two-column {
+    position: relative;
+    .col-1 {
+        min-height: 30%;
+        width: 35vw;
+        background: aliceblue;
+        position: absolute;
+        top: 0%;
+        transform: translate(20%, -215%);
+    }
+    .col-2 {
+        position: absolute;
+        transform: translate(73%, -100%);
+    }
 }

@@ -16,6 +16,14 @@
     top: 28%;
     left: 1%;
 }
+.underline-3 {
+    height: 8px;
+    width: 9%;
+    background: aqua;
+    position: absolute;
+    transform: translate(2%, 0%);
+    top: 40%;
+}
 .underline-dark {
     background: #444;
     width: 80%;
@@ -23,6 +31,14 @@
     position: absolute;
     top: 80%;
     transform: translate(-65%,80%);
+}
+.underline-dark-2 {
+    background: #444;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 80%;
+    transform: translate(-1%,70%);
 }
 .custom {
     padding: 4rem 3rem;

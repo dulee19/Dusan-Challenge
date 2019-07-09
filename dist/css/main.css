@@ -15,6 +15,14 @@
   top: 28%;
   left: 1%; }
 
+.underline-3 {
+  height: 8px;
+  width: 9%;
+  background: aqua;
+  position: absolute;
+  transform: translate(2%, 0%);
+  top: 40%; }
+
 .underline-dark {
   background: #444;
   width: 80%;
@@ -22,6 +30,14 @@
   position: absolute;
   top: 80%;
   transform: translate(-65%, 80%); }
+
+.underline-dark-2 {
+  background: #444;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 80%;
+  transform: translate(-1%, 70%); }
 
 .custom {
   padding: 4rem 3rem;
@@ -105,3 +121,16 @@ section.map {
   position: relative;
   min-width: 100%;
   transform: translate(0%, -80%); }
+
+section.two-column {
+  position: relative; }
+  section.two-column .col-1 {
+    min-height: 30%;
+    width: 35vw;
+    background: aliceblue;
+    position: absolute;
+    top: 0%;
+    transform: translate(20%, -215%); }
+  section.two-column .col-2 {
+    position: absolute;
+    transform: translate(73%, -100%); }

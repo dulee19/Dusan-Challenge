@@ -1,18 +1,18 @@
 .underline {
-  height: 23px;
-  width: 25%;
+  height: 10px;
+  width: 20%;
   background: aqua;
   position: absolute;
   transform: translate(0%, 100%);
   top: 5%; }
 
 .underline-2 {
-  height: 18px;
+  height: 8px;
   width: 11%;
   background: aqua;
   position: absolute;
   transform: translate(0%, 100%);
-  top: 28%;
+  top: 62%;
   left: 1%; }
 
 .underline-3 {
@@ -20,7 +20,7 @@
   width: 9%;
   background: aqua;
   position: absolute;
-  transform: translate(2%, 0%);
+  transform: translate(2%, 150%);
   top: 40%; }
 
 .underline-dark {
@@ -40,8 +40,8 @@
   transform: translate(-1%, 70%); }
 
 .custom {
-  padding: 4rem 3rem;
-  margin-top: 10vh; }
+  padding: 3rem 2rem;
+  margin: 12vh 12rem; }
 
 .columns h4 {
   margin-top: 2vh; }
@@ -60,11 +60,11 @@
   margin-top: .2rem; }
 
 .overlay-box {
-  min-height: 50vh;
+  min-height: 10vw;
   min-width: 90%;
   background: honeydew;
   position: absolute;
-  transform: translate(8%, -22%); }
+  transform: translate(4%, -22%); }
   .overlay-box h4 {
     text-transform: uppercase;
     word-wrap: break-word; }
@@ -81,24 +81,26 @@
 .upper {
   text-transform: uppercase; }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+.text-light {
+  color: floralwhite; }
+
+button {
+  display: inline-block; }
 
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  min-height: 100vh; }
 
 header {
   position: relative;
   min-height: 100vh; }
 
 section {
-  min-height: 100vh;
-  width: 100%; }
+  min-height: 55vmax;
+  max-width: 100vw; }
   section .showcase-top {
     background: url("../../img/hero_desktop.jpg") no-repeat center center/cover;
-    height: 100vh;
+    min-height: 120vh;
     width: 100%; }
   section .showcase-side {
     height: 100vh;
@@ -120,17 +122,31 @@ section.map {
   top: 0%;
   position: relative;
   min-width: 100%;
-  transform: translate(0%, -80%); }
+  transform: translate(0%, -73%); }
 
-section.two-column {
+.two-column {
   position: relative; }
-  section.two-column .col-1 {
+  .two-column .col-1 {
     min-height: 30%;
     width: 35vw;
     background: aliceblue;
     position: absolute;
     top: 0%;
-    transform: translate(20%, -215%); }
-  section.two-column .col-2 {
+    transform: translate(10%, -215%); }
+  .two-column .col-2 {
     position: absolute;
-    transform: translate(73%, -100%); }
+    transform: translate(80%, -95%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+
+.shore {
+  position: relative; }
+
+.shore-content {
+  position: relative;
+  transform: translate(0%, -95%); }
+
+.computer-img {
+  background: url("../../img/partnerships_douglas_graphics_01_de.png") no-repeat cover;
+  width: 20%;
+  height: 40vh; }

@@ -1,19 +1,19 @@
 // Utility Classes
 .underline {
-    height: 23px;
-    width: 25%;
+    height: 10px;
+    width: 20%;
     background: aqua;
     position: absolute;
     transform: translate(0%, 100%);
     top: 5%;
 }
 .underline-2 {
-    height: 18px;
+    height: 8px;
     width: 11%;
     background: aqua;
     position: absolute;
     transform: translate(0%, 100%);
-    top: 28%;
+    top: 62%;
     left: 1%;
 }
 .underline-3 {
@@ -21,7 +21,7 @@
     width: 9%;
     background: aqua;
     position: absolute;
-    transform: translate(2%, 0%);
+    transform: translate(2%, 150%);
     top: 40%;
 }
 .underline-dark {
@@ -41,8 +41,8 @@
     transform: translate(-1%,70%);
 }
 .custom {
-    padding: 4rem 3rem;
-    margin-top: 10vh;
+    padding: 3rem 2rem;
+    margin: 12vh 12rem;
 }
 .columns h4 {
     margin-top: 2vh;
@@ -61,11 +61,11 @@
     margin-top: .2rem;
 }
 .overlay-box {
-    min-height: 50vh;
+    min-height: 10vw;
     min-width: 90%;
     background: honeydew;
     position: absolute;
-    transform: translate(8%,-22%);
+    transform: translate(4%,-22%);
     
     h4 {
         text-transform: uppercase;
@@ -84,4 +84,10 @@
 }
 .upper {
     text-transform: uppercase;
+}
+.text-light {
+    color: floralwhite;
+}
+button {
+    display: inline-block;
 }

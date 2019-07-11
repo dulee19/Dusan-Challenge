@@ -1,4 +1,5 @@
 @import 'utility';
+@import 'config';
 
 $primary-color: black;
 $secondary-color: aqua;
@@ -7,6 +8,7 @@ body {
     overflow-x: hidden;
     min-height: 100vh;
 }
+
 header {
     position: relative;
     min-height: 100vh;
@@ -22,6 +24,7 @@ section {
         min-height: 120vh;
         width: 100%;
     }
+
     .showcase-side {
         height: 100vh;
         display: flex;
@@ -31,8 +34,13 @@ section {
         flex-direction: column;
         color: floralwhite;
         position: absolute;
-        transform: translate(2%,0%);
+        transform: translate(2%, 0%);
         top: 40%;
+
+        ul {
+            display: grid;
+            grid-template-columns: 2fr;
+        }
     }
 }
 
@@ -43,16 +51,17 @@ section.overlay {
 
 // Map
 section.map {
-   background: url('../../img/map.jpg') no-repeat center center/cover;
-   top: 0%;
-   position: relative;
-   min-width: 100%;
-   transform: translate(0%,-73%);
+    background: url('../../img/map.jpg') no-repeat center center/cover;
+    top: 0%;
+    position: relative;
+    min-width: 100%;
+    transform: translate(0%, -73%);
 }
 
 // Two Columns Section
 .two-column {
     position: relative;
+
     .col-1 {
         min-height: 30%;
         width: 35vw;
@@ -61,11 +70,12 @@ section.map {
         top: 0%;
         transform: translate(10%, -215%);
     }
+
     .col-2 {
         position: absolute;
         transform: translate(80%, -95%);
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -73,9 +83,10 @@ section.map {
 .shore {
     position: relative;
 }
+
 .shore-content {
     position: relative;
-    transform: translate(0%,-95%);
+    transform: translate(0%, -95%);
 }
 
 // Two Column End

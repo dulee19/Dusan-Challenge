@@ -5,8 +5,9 @@
     background: aqua;
     position: absolute;
     transform: translate(0%, 100%);
-    top: 5%;
+    top: 8%;
 }
+
 .underline-2 {
     height: 8px;
     width: 11%;
@@ -16,6 +17,7 @@
     top: 62%;
     left: 1%;
 }
+
 .underline-3 {
     height: 8px;
     width: 9%;
@@ -24,29 +26,34 @@
     transform: translate(2%, 150%);
     top: 40%;
 }
+
 .underline-dark {
     background: #444;
     width: 80%;
     height: 2px;
     position: absolute;
     top: 80%;
-    transform: translate(-65%,80%);
+    transform: translate(-65%, 80%);
 }
+
 .underline-dark-2 {
     background: #444;
     width: 100%;
     height: 2px;
     position: absolute;
     top: 80%;
-    transform: translate(-1%,70%);
+    transform: translate(-1%, 70%);
 }
+
 .custom {
     padding: 3rem 2rem;
     margin: 12vh 12rem;
 }
+
 .columns h4 {
     margin-top: 2vh;
 }
+
 .block {
     position: absolute;
     top: 70%;
@@ -54,19 +61,22 @@
     text-align: center;
     left: 2%;
 }
+
 .button-white button {
     text-transform: uppercase;
 }
+
 .column {
     margin-top: .2rem;
 }
+
 .overlay-box {
-    min-height: 10vw;
+    min-height: 25vw;
     min-width: 90%;
     background: honeydew;
     position: absolute;
-    transform: translate(4%,-22%);
-    
+    transform: translate(4%, -22%);
+
     h4 {
         text-transform: uppercase;
         word-wrap: break-word;
@@ -76,18 +86,23 @@
 .text-center {
     text-align: center;
 }
+
 .mt {
     margin-top: 12vh;
 }
+
 .ml {
     margin-left: 5%;
 }
+
 .upper {
     text-transform: uppercase;
 }
+
 .text-light {
     color: floralwhite;
 }
+
 button {
     display: inline-block;
 }

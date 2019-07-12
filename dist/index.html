@@ -7,6 +7,7 @@
     <meta author="Aleksic Dusan" keywords="challenge">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
+    <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
     <link rel="stylesheet" href="css/main.css">
     <title>Web Development - Challenge</title>
 </head>
@@ -62,7 +63,7 @@
                     </ul>
                 </div>
                 <div class="button-white column">
-                    <button class="button is-white">Ich will dabei sein</button>
+                    <button id="modal-btn" class="button is-white">Ich will dabei sein</button>
                 </div>
             </div>
         </div>
@@ -229,7 +230,8 @@
                         </p>
                     </li>
                     <li class="navbar-item">
-                        <button class="button is-black card-footer-item upper text-center">Mehr über shore
+                        <button id="modal-btn" class="button is-black card-footer-item upper text-center">Mehr über
+                            shore
                             erfahren</button>
                     </li>
                 </ul>
@@ -266,6 +268,47 @@
             </nav>
         </div>
     </footer>
+
+    <!-- Modal -->
+    <div id="my-modal" class="modal container is-fluid">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                </div>
+                <div class="box">
+                    <article class="media">
+                        <div class="media-left card column is-half">
+                            <figure class="image">
+                                <img src="../../img/loyalty_card_scanner_image_a.jpg" alt="">
+                            </figure>
+                        </div>
+                        <div class="media-content card">
+                            <ul class="menu-list">
+                                <li class="navbar-item">
+                                    <p class="title">Glückwunsch!</p>
+                                </li>
+                                <li class="navbar-item">
+                                    <p class="subtitle">In Ihrer Nachbarschaft gibt es ca. 2954 Douglas Loyalty Card
+                                        Nutzer</p>
+                                </li>
+                                <li class="navbar-item">
+                                    <p class="subtitle">Treten Sie jetzt mit uns in Kontakt und schöpfen Sie dieses
+                                        Kundenpotenzial zusammen mit Douglas und Shore voll aus.</p>
+                                </li>
+                                <li class="navbar-item">
+                                    <button class="is-medium upper is-primary">Jetzt unverbindlich anfragen</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/main.js"></script>

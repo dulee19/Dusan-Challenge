@@ -87,9 +87,14 @@
 button {
   display: inline-block; }
 
+@font-face {
+  font-family: "ZahrahforDouglas";
+  src: url("/fonts/ZahrahforDouglas/ZahrahforDouglas-MediumIt.woff") format("woff"); }
+
 body {
   overflow-x: hidden;
-  min-height: 100vh; }
+  min-height: 100vh;
+  font-family: "ZahrahforDouglas"; }
 
 header {
   position: relative;
@@ -154,6 +159,36 @@ section.map {
   width: 20%;
   height: 40vh; }
 
+.modal-content {
+  display: grid;
+  grid-template-columns: 2fr;
+  margin-top: 5rem;
+  animation-name: modalopen;
+  animation-duration: 1s; }
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.close {
+  color: floralwhite;
+  float: right;
+  font-size: 30px;
+  cursor: pointer; }
+
+@keyframes modalopen {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
 @media screen and (max-width: 769px) {
   .showcase .showcase-top {
     min-height: 100vh;
@@ -204,6 +239,14 @@ section.map {
     width: 70%;
     top: 28%;
     left: 17%; }
+  .modal-content {
+    min-width: 40vw;
+    min-height: 35vw;
+    overflow: hidden;
+    margin: 3rem 0 1rem 0rem; }
+  figure.image {
+    min-width: 30vw;
+    height: 30vw; }
   section.map {
     position: relative;
     min-height: 120vh; }
@@ -242,12 +285,28 @@ section.map {
     min-height: 40vw;
     width: 50vh;
     z-index: 3;
-    transform: translate(5%, -55%); }
+    transform: translate(5%, -5%); }
   .overlay-box ul {
     display: grid;
     grid-template-columns: 2fr; }
+  section .card.custom {
+    transform: translate(-14%, 45%);
+    min-width: 65vw;
+    min-height: 5vh;
+    display: flex;
+    z-index: -2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
   .two-column .col-1 {
     position: absolute;
     width: 50vw;
     top: 0%;
-    transform: translate(-30%, -215%); } }
+    transform: translate(-30%, -155%); }
+  .two-column .col-2 {
+    position: absolute;
+    width: 50vw;
+    top: 0%;
+    transform: translate(95%, -65%); }
+  section.shore {
+    margin-top: 45vh; } }

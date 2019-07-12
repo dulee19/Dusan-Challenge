@@ -4,9 +4,15 @@
 $primary-color: black;
 $secondary-color: aqua;
 
+@font-face {
+    font-family: "ZahrahforDouglas";
+    src: url('/fonts/ZahrahforDouglas/ZahrahforDouglas-MediumIt.woff') format("woff");
+}
+
 body {
     overflow-x: hidden;
     min-height: 100vh;
+    font-family: "ZahrahforDouglas";
 }
 
 header {
@@ -95,5 +101,45 @@ section.map {
     width: 20%;
     height: 40vh;
 }
+
+// Modal
+.modal-content {
+    display: grid;
+    grid-template-columns: 2fr;
+    margin-top: 5rem;
+    animation-name: modalopen;
+    animation-duration: 1s;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.close {
+    color: floralwhite;
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
 
 @import 'mobile';

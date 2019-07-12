@@ -4,6 +4,7 @@
   "description": "Web Development Challenge",
   "main": "index.js",
   "dependencies": {
+    "bulma-modal-fx": "^1.1.1",
     "git": "^0.1.5",
     "node-sass": "^4.12.0"
   },
